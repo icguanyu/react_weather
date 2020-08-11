@@ -1,16 +1,9 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from "react";
+import ReactDOM from "react-dom";
 
-import 'normalize.css';
-import './index.css';
+import "normalize.css";
+import "./index.css";
 
+import WeatherAPP from "./WeatherApp";
 
-import WeatherAPP from './WeatherApp'
-
-ReactDOM.render(
-  <React.StrictMode>
-    <WeatherAPP />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
-
+ReactDOM.render(<WeatherAPP />, document.getElementById("root"));
